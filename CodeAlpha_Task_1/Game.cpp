@@ -41,7 +41,7 @@ void Game::initWindow()
 {
 	this->video.height = 700;
 	this->video.width = 800;
-	this->window = new sf::RenderWindow(this->video, "First Project", sf::Style::Titlebar | sf::Style::Close);
+	this->window = new sf::RenderWindow(this->video, "Number Guesser", sf::Style::Titlebar | sf::Style::Close);
 }
 
 void Game::initMusic()
